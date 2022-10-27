@@ -1,0 +1,65 @@
+body{
+  background-color: #333;
+  color:white;
+  display: flex;
+}
+h1{
+  text-align: center;
+  padding:20px;
+  color:#E2B872;
+  font-size: 40px;
+}
+.btn-clear{
+  padding:10px 30px;
+  background-color:#E2B872 ;
+  margin-bottom: 30px;
+ float:right;
+  font-size: 25px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px darkgoldenrod;
+  transition: .3s ease-in-out;
+
+}
+.btn-clearOne{
+  padding:10px 10px;
+  background-color:#E2B872 ;
+  margin-bottom: 30px;
+ float:right;
+  font-size: 15px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px darkgoldenrod;
+  transition: .3s ease-in-out;
+}
+.btn-clear:hover{
+  transform: scale(1.1,1.1);
+}
+.read-more{
+margin-left: 0;
+  padding:0;
+  font-size: 15px;
+  
+}
+.tour-item{
+  width:50%;
+  margin:0 auto;
+  box-shadow: 10px 10px 30px #F9C248;
+  margin-bottom: 25px;
+  padding: 40px 20px;
+}
+.tour-item img{
+  width:100%;
+}
+.tour-item h2{
+  text-align: center;
+  color:#F9C248 ;
+}
+.tour-item p{
+  line-height: 1.6;
+}
+.tour-item .price{
+ background-color:#F9C248 ;
+ width:40px;
+ padding:10px 20px;
+ border-radius: 20px;
+color:black;
+}
